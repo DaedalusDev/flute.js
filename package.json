@@ -1,0 +1,43 @@
+{
+  "name": "flute.js",
+  "version": "1.0.0",
+  "description": "Javascript MVC based on O2",
+  "main": "index.html",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaedalusDev/flute.js.git"
+  },
+  "keywords": [
+    "javascript",
+    "MVC"
+  ],
+  "author": "Daedalus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DaedalusDev/flute.js/issues"
+  },
+  "homepage": "https://github.com/DaedalusDev/flute.js#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jasmine": "^1.0.3",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jasmine": "^2.5.2",
+    "jasmine-jquery": "^2.1.1",
+    "jquery": "^3.1.1",
+    "karma": "^1.3.0",
+    "karma-coverage": "^1.1.1",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.2"
+  }
+}
